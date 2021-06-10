@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../font_rurzd8bogkb/iconfont.css"/>
+
+
+<script src="../jquery/jquery.js"></script>
+
+<body>
+<!-- 顶部 -->
+<div class="header">
+    <div class="header-center">
+        <!-- 左边 -->
+        <div class="head-left">
+            <ul>
+                <li><a href="../pages/login.html"  target="_blank" class="replacename">登录</a></li>
+                <li><a href="../pages/register.html" target="_blank" class="null">注册</a></li>
+                <li class="you"><a href="javascript:;" class="left-null">移动端下载</a></li>
+                <li class="you"><a href="javascript:;">卖家移动端下载</a></li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="head-right">
+            <ul>
+                <li><a href="../pages/home.html">商城首页</a></li>
+                <li><a href="javascript:;">我的订单</a></li>
+                <li><a href="javascript:;">开店申请</a></li>
+                <li><a href="javascript:;">注册分销商</a></li>
+                <li><a href="javascript:;"><span class="iconfont icon-favorite-filling"></span> 我的收藏</a></li>
+                <li><a href="javascript:;">客服中心</a></li>
+                <li class="wu"><a href="javascript:;"><span class="iconfont icon-help-filling"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 搜索栏 -->
+<div class="search">
+    <div class="search-center">
+        <!-- gif图 -->
+        <a href="../pages/home.html" class="sc-gif">
+            <img src="../img/86f141a8-3876-4568-86f0-3c343430775c.gif" >
+        </a>
+
+        <!-- 搜索框 -->
+        <div class="sc-search">
+            <div class="sc-search-top">
+                <div class="sc-search-left">
+                    <span>商品</span><span class="iconfont icon-arrow-down-bold"></span>
+                </div>
+                <div class="sc-search-mid">
+                        <input type="text" placeholder="请输入要搜索的信息">
+                </div>
+                <div class="sc-search-right">
+                        <span class="iconfont icon-search"></span>
+                </div>
+            </div>
+            <div class="sc-search-bottom">
+                <ul>
+                    <li><a href="javascript:;">冰箱</a></li>
+                    <li><a href="javascript:;">洗衣机</a></li>
+                    <li><a href="javascript:;">热水器</a></li>
+                    <li><a href="javascript:;">蒸烤双能机</a></li>
+                    <li><a href="javascript:;">消毒制造机</a></li>
+                    <li><a href="javascript:;">猎手净化器</a></li>
+                    <li><a href="javascript:;">大松5G手机</a></li>
+                    <li><a href="javascript:;">吸尘器</a></li>
+                </ul>
+            </div> 
+            
+            
+        </div>
+        <!-- 搜索框右边 -->
+        <div class="sc-right-img">
+            <img src="../img/headicon.png">
+        </div>
+        
+        <!-- 购物车按钮 -->
+        <a class="sc-cart" href="../pages/cart.html" target="_blank">
+            <img src="../img/cart_empty.png" alt="">
+            <span>购物车</span>
+            (<span class="goods-num">0</span>)
+        </a>
+    </div>
+</div>
+
+<!-- 导航栏 -->
+<div class="banner">
+    <div class="banner-center">
+        <div class="banner-center-top">
+            <ul>
+                <li class="all-select"><a href="javascript:;"><span class="iconfont icon-file-common-filling"></span> 全部商品分类</a> </li>
+                <li><a href="javascript:;">精品冰洗</a></li>
+                <li><a href="javascript:;">健康家电</a></li>
+                <li><a href="javascript:;">当季优选</a></li>
+                <li><a href="javascript:;">精品生活电器</a></li>
+                <li><a href="javascript:;">精品空调</a></li>
+                <li><a href="javascript:;">衡温空调</a></li>
+                <li><a href="javascript:;">爆款必购</a></li>
+            </ul>
+        </div>
+        <div class="banner-center-bottom">
+                <div class="banner-list">
+                    <ul>
+                        <li class="biao">
+                            <span>钟表</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">国产腕表&nbsp;></a></li>
+                                <li><a href="javascript:;">罗西尼</a></li>
+                                <li><a href="javascript:;">罗西尼</a></li>
+                            </ul>
+                        </div>
+                        
+                        <li>
+                            <a href="../pages/list.html">
+                                <img class="bx-img" src="../img/CategoryIcon-03.png">
+                                <span>冰箱</span>
+                                <span class="iconfont icon-arrow-right-bold"></span>
+                            </a>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">冰箱&nbsp;></a></li>
+                                <li><a href="javascript:;">单门</a></li>
+                                <li><a href="javascript:;">双门</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-04.png">
+                            <span>洗衣机</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">洗衣机&nbsp;></a></li>
+                                <li><a href="javascript:;">十公斤</a></li>
+                                <li><a href="javascript:;">五公斤</a></li>
+                                <li><a href="javascript:;">三公斤</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-07.png">
+                            <span>热水器</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">燃气热水器&nbsp;></a></li>
+                                <li><a href="javascript:;">天然气</a></li>
+                                <li><a href="javascript:;">液化气</a></li>
+                            </ul>
+                        </div>
+                        
+                        <li>
+                            <img src="../img/CategoryIcon-06.png">
+                            <span>生活家电</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">厨房家电&nbsp;></a></li>
+                                <li><a href="javascript:;">高压锅</a></li>
+                                <li><a href="javascript:;">电磁炉</a></li>
+                                <li><a href="javascript:;">电饭煲</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-05.png">
+                            <span>手机数码</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">充电宝&nbsp;></a></li>
+                                <li><a href="javascript:;">黑色</a></li>
+                                <li><a href="javascript:;">白色</a></li>
+                                <li><a href="javascript:;">红色</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-01.png">
+                            <span>空调</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">家用空调&nbsp;></a></li>
+                                <li><a href="javascript:;">大功率</a></li>
+                                <li><a href="javascript:;">小功率</a></li>
+                                <li><a href="javascript:;">立式空调</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-02.png">
+                            <span>家庭中央空调</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">家庭中央空调&nbsp;></a></li>
+                                <li><a href="javascript:;">大功率</a></li>
+                                <li><a href="javascript:;">小功率</a></li>
+                                <li><a href="javascript:;">立式空调</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-14.png">
+                            <span>商用中央空调</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">商用中央空调&nbsp;></a></li>
+                                <li><a href="javascript:;">大功率</a></li>
+                                <li><a href="javascript:;">小功率</a></li>
+                                <li><a href="javascript:;">立式空调</a></li>
+                            </ul>
+                        </div>
+                        
+                        <li>
+                            <img src="../img/CategoryIcon-15.png">
+                            <span>冷冻冷藏</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">电冰箱&nbsp;></a></li>
+                                <li><a href="javascript:;">双门</a></li>
+                                <li><a href="javascript:;">单门</a></li>
+                            </ul>
+                        </div>
+                        <li>
+                            <img src="../img/CategoryIcon-08.png">
+                            <span>常用配件</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">空调配件&nbsp;></a></li>
+                                <li><a href="javascript:;">过滤网</a></li>
+                            </ul>
+                        </div>
+
+
+                        <li>
+                            <img src="../img/CategoryIcon-10.png">
+                            <span>智能家居</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">智能机器人&nbsp;></a></li>
+                                <li><a href="javascript:;">扫地机器人</a></li>
+                            </ul>
+                        </div>
+
+                        <li>
+                            <img src="../img/CategoryIcon-11.png">
+                            <span>家电服务</span>
+                            <span class="iconfont icon-arrow-right-bold"></span>
+                        </li>
+                        <div class="banner-mask">
+                            <ul style="background:white">
+                                <li class="first"><a style="color:#666;font-size:15px;font-weight:bold;" href="javascript:;">家电服务&nbsp;></a></li>
+                                <li><a href="javascript:;">大功率家电</a></li>
+                            </ul>
+                        </div>
+                        
+                    </ul>
+                </div>
+                
+                
+        </div>
+            
+    </div>
+
+    <div class="banner-img">
+        <img class="i1" style="left:0" src="../img/347e30a5-661f-458c-8793-966f5caa98cc.jpg">
+        <img class="i2" src="../img/b5e101e1-1758-4adf-8dcc-37f40a0a3805.jpg">
+        <img class="i3" src="../img/dbde91ec-0a75-4789-a40a-8497add88797.jpg">
+    
+        <ul>
+            <li class="full liss"></li>
+            <li class="liss"></li>
+            <li class="liss"></li>
+        </ul>
+        
+    </div>
+     
+</div>
+
+
+<!-- 热销推荐 -->
+<div class="tuijian">
+    <span>热销推荐</span>
+    <div class="mokuai-img">
+        <img src="../img/9fc1a63e-6aca-4358-be83-8273e410c7ae.jpg">
+        <img src="../img/7ffdcdf0-4947-4c90-a4fd-8356484a7a1e.jpg">
+        <img src="../img/ee6331ed-148b-4ade-a472-a45b3f56e468.jpg">
+        <img src="../img/41089e93-da13-47d5-a4c3-da4070c4582d.jpg">
+    </div>
+</div>
+
+<!-- 每日精选 -->
+<div class="everyday">
+    <span>每日精选</span>
+    <div class="mokuai-img">
+        <img src="../img/a9a3624c-c94d-4a97-9587-9a0063e013c3.jpg">
+        <img src="../img/57c0180e-544c-4c06-9588-b50487275e78 (1).jpg">
+        <img class="wu" src="../img/1116ff84-6557-4278-b299-ad712b8a0388.jpg">
+        <img src="../img/75014cb2-361e-47e6-be06-5b0f947acf83.jpg">
+        <img src="../img/5950c0da-487f-445f-877a-e54795dfa92c (1).jpg">
+        <img class="wu" src="../img/5bc93c80-89c4-4df0-9b59-2e084788e773 (1).jpg">
+    </div>
+</div>
+
+<!-- 1L冰箱 -->
+<div class="first-floor">
+    <span class="s1">1F</span>
+    <span>冰箱 ></span>
+    <div class="mokuai-img">
+        <img src="../img/d0eee98b-46f5-4cc4-ae89-1fad3810e593.jpg">
+        <img src="../img/b5108bb9-e35a-4c93-908a-8ca1a552c0c7 (1).jpg">
+        <ul>
+            <li class="mokuai you">
+                <img style="width:190px;height:190px" src="../img/286d9691-eeec-4d15-9530-e8558d687cd4 (1).jpg" alt="">
+                <p class="p1">晶弘三门冰箱</p>
+                <p class="p2">wifi智能控制</p>
+                <p class="p3">￥4489.00</p>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="mokuai you">
+                <img style="width:190px;height:190px" src="../img/8dcf9c64-5b41-480f-a3ed-bbf50d034fc1.jpg" alt="">
+                <p class="p1">晶弘三门冰箱</p>
+                <p class="p2">wifi智能控制</p>
+                <p class="p3">￥4489.00</p>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="mokuai">
+                <img style="width:190px;height:190px" src="../img/cf71f0de-847f-4efa-a612-8dccf67bcba6 (1).jpg" alt="">
+                <p class="p1">晶弘三门冰箱</p>
+                <p class="p2">wifi智能控制</p>
+                <p class="p3">￥4489.00</p>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="mokuai you">
+                <img style="width:190px;height:190px" src="../img/8dcf9c64-5b41-480f-a3ed-bbf50d034fc1 (1).jpg" alt="">
+                <p class="p1">晶弘三门冰箱</p>
+                <p class="p2">wifi智能控制</p>
+                <p class="p3">￥4489.00</p>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="mokuai you">
+                <img style="width:190px;height:190px" src="../img/7c5b7b86-2367-4462-882c-a1e33acb7b66 (1).jpg" alt="">
+                <p class="p1">晶弘三门冰箱</p>
+                <p class="p2">wifi智能控制</p>
+                <p class="p3">￥4489.00</p>
+            </li>
+        </ul>
+
+        <ul>
+            <li class="mokuai">
+                <img style="width:190px;height:190px" src="../img/21d937be-ae92-43bf-8d35-b9477a44f11d (1).jpg" alt="">
+                <p class="p1">格力海洋之梦空气能热水器</p>
+                <p class="p2">电子阳极防腐棒</p>
+                <p class="p3">￥8109.00</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- 2L冰箱 -->
+<div class="first-floor">
+        <span class="s1">2F</span>
+        <span>空气能热水器 ></span>
+        <div class="mokuai-img">
+            <img src="../img/ef82d675-28e9-454f-a06d-e1f61ccaf228 (1).jpg">
+            <img src="../img/76cfaab4-a66d-4271-9f4f-1dd3c8054f92 (1).jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/2cbc7f1b-4c7a-4f5a-ad47-ac090d1735a1 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥8109.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/1315b3f7-a748-44c5-9cef-b0fd458b7ce0 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/cc38d261-b816-437f-86c5-d559a70ad7e4 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/19e2a392-6497-4551-bc54-0ae13b70bcc7 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/cc38d261-b816-437f-86c5-d559a70ad7e4 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/6d5f29cb-6c73-4910-a6a0-ddd7bd454795 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥8109.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- 3L厨房电器 -->
+<div class="first-floor">
+        <span class="s1">3F</span>
+        <span>空气能热水器 ></span>
+        <div class="mokuai-img">
+            <img src="../img/78677bbd-43a9-4f8c-9bda-1418cd1cea23 (1).jpg">
+            <img src="../img/5c0dce44-a779-4d51-8fcc-8b28b550e1a3 (1).jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/0ef1e7ec-ed52-4505-a408-e93c48349b3e (1).jpg" alt="">
+                    <p class="p1">大松智能电饭煲</p>
+                    <p class="p2">IH加热技术</p>
+                    <p class="p3">￥879.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/c1009321-9a92-4e65-afbc-716675535027 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/71f172bf-7785-4b73-9a04-63a2b073f1dc (1).jpg" alt="">
+                    <p class="p1">大松智能电饭煲</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/bd0bedad-4298-4197-87c2-2d49bfad8572 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/c85bbb51-090c-4f4c-82aa-fc408b811735 (1).jpg" alt="">
+                    <p class="p1">大松智能电饭煲</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥419.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/673a1bfc-f851-43c1-b1ae-c29e4ef8f4c2 (1).jpg" alt="">
+                    <p class="p1">大松智能电饭煲</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥819.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+<!-- 4L生活电器 -->
+<div class="first-floor">
+        <span class="s1">4F</span>
+        <span>生活电器 ></span>
+        <div class="mokuai-img">
+            <img src="../img/3a31e27b-8331-49d5-a07d-da77bc16c526 (1).jpg">
+            <img src="../img/7c1c3dc7-67bf-47ca-8f73-a0b9c0ca083a (1).jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/4c02529b-9858-4423-9881-a6b2bdf02c0e (1).jpg" alt="">
+                    <p class="p1">格力电暖气</p>
+                    <p class="p2">IH加热技术 优质导油</p>
+                    <p class="p3">￥479.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/2842d12a-2801-48e4-9e5d-e723285d193e (1).jpg" alt="">
+                    <p class="p1">格力电暖气</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/772ff633-1423-4cec-a4e4-da7fcea3e5be (1).jpg" alt="">
+                    <p class="p1">格力电暖气</p>
+                    <p class="p2">IH加热技术 优质导油</p>
+                    <p class="p3">￥489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/8dc9f768-4eee-44e6-a805-ee7052c25fd8 (1).jpg" alt="">
+                    <p class="p1">格力海洋之梦空气能热水器</p>
+                    <p class="p2">电子阳极防腐棒</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/1825146d-5d82-4204-b327-d14ac51e5ef1 (1).jpg" alt="">
+                    <p class="p1">格力电暖气</p>
+                    <p class="p2">IH加热技术 优质导油</p>
+                    <p class="p3">￥419.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/53fc53fd-120a-4608-a2f5-79ee5a54a713 (1).jpg" alt="">
+                    <p class="p1">格力电暖气</p>
+                    <p class="p2">IH加热技术 优质导油</p>
+                    <p class="p3">￥819.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 5L手机 -->
+<div class="first-floor">
+        <span class="s1">5F</span>
+        <span>格力手机 ></span>
+        <div class="mokuai-img">
+            <img src="../img/bb0eac55-2b51-40da-98ec-6f8404463013 (1).jpg">
+            <img src="../img/b7453ab4-5cbb-4e95-a49e-06963d6bd9ba (1).jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/78899886-a24e-408e-87f8-56355432bf36 (1).jpg" alt="">
+                    <p class="p1">格力充电宝</p>
+                    <p class="p2">10000mah</p>
+                    <p class="p3">￥479.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/ad669cdc-73c7-4f98-b2fc-e0d7d2aa5339 (1).jpg" alt="">
+                    <p class="p1">格力充电宝</p>
+                    <p class="p2">10000mah</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/05fbf7b0-b8b0-4bc2-a7cd-f98915c94a29 (1).jpg" alt="">
+                    <p class="p1">格力充电宝</p>
+                    <p class="p2">10000mah</p>
+                    <p class="p3">￥489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/348de13b-a72b-40e2-b06d-21eaf74a3a62 (1).jpg" alt="">
+                    <p class="p1">大松手机</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥4489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/13371a80-d646-4610-846a-312ceed707d8 (1).jpg" alt="">
+                    <p class="p1">大松手机</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥419.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/966bb490-d60a-4548-a94b-846570f92c2b (1).jpg" alt="">
+                    <p class="p1">大松手机</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥819.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- 6L空调 -->
+<div class="first-floor">
+        <span class="s1">6F</span>
+        <span>家用空调 ></span>
+        <div class="mokuai-img">
+            <img src="../img/b587a7bf-a321-4595-a471-87c511855b90 (1).jpg">
+            <img src="../img/298c8362-ba54-42b4-8593-70b82e02005d.jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/74351ded-100d-433d-b3f2-86f03125996d.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">恒暖黑科技</p>
+                    <p class="p3">￥2479.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/0a04b843-7896-4b54-8c36-eb0262216579.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">恒暖黑科技</p>
+                    <p class="p3">￥2819.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/66b0936b-38cf-466c-8d26-a705c48a68d3.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">恒暖黑科技</p>
+                    <p class="p3">￥489.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/a651e548-f2d1-4082-9e5a-ff7bbe7d2223.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥2819.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/fa242c1c-d710-4b58-a78e-abb5b0e261eb.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">恒暖黑科技</p>
+                    <p class="p3">￥2819.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/0bd2a0ec-abda-4ea9-a991-4d54d31773df.jpg" alt="">
+                    <p class="p1">新国标变频冷暖风</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥2819.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- 7L电动车 -->
+<div class="first-floor">
+        <span class="s1">7F</span>
+        <span>新能源汽车 ></span>
+        <div class="mokuai-img">
+            <img src="../img/80dcb07f-3d5b-45b2-a7d6-69b4ede8c7d3 (1).jpg">
+            <img src="../img/c291b180-c892-47b8-aa23-8cbc2119c448 (1).jpg">
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/39569098-d9c3-45cf-ac5e-e3551ab8b843 (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">长续航高质量</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/b0dc3796-b367-497a-a1a9-95b26e377400 (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">长续航高质量</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/9267258d-6d31-47e6-a59c-3f93e466a678 (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">长续航高质量</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/e04c7163-d93c-40ed-933a-77281516bd90 (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">长续航高质量</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai you">
+                    <img style="width:190px;height:190px" src="../img/f063bde2-96ae-430a-8fb1-11120aa4f0ac (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">长续航高质量</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+    
+            <ul>
+                <li class="mokuai">
+                    <img style="width:190px;height:190px" src="../img/3b954833-b612-42d1-be02-e7ef43b89901 (1).jpg" alt="">
+                    <p class="p1">新能源微型汽车</p>
+                    <p class="p2">快捷运行</p>
+                    <p class="p3">￥999999.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+       
+<!-- 董明珠照片 -->
+<div class="boss-new">
+    <img src="../img/boss_new (1).png" alt="">
+</div>
+
+<!-- 底部 -->
+<div class="footer">
+        <div class="footer-center">
+            <ul>
+                <li class="first">购物指南</li>
+                <li>格力境外购买须知</li>
+                <li>商城支付</li>
+                <li>配送服务查询</li>
+                <li>负责声明</li>
+            </ul>
+    
+            <ul>
+                <li class="first">售后服务</li>
+                <li>商城退换货</li>
+                <li>服务时效</li>
+                <li>安装维修</li>
+                <li>联系我们</li>
+            </ul>
+            <ul>
+                <li class="first">常见问题</li>
+                <li>空调内机条码获取方法</li>
+                <li>订单常见问题说明</li>
+                <li>空调常见问题说明</li>
+                <li>冰箱常见问题说明</li>
+            </ul>
+            <ul>
+                <li class="first">相关管理制度</li>
+                <li>知识产权保护规则</li>
+                <li>严重违法行为平台服务停止制度</li>
+                <li>食品安全自查制度</li>
+                <li>食品安全投诉举报处理制度</li>
+            </ul>
+            <ul>
+                <li class="first">平台协议</li>
+                <li>开放服务协议</li>
+                <li>用户注册协议</li>
+                <li>营业执照</li>
+                <li>联系我们</li>
+            </ul>
+    
+            <img src="../img/footer_04.png" alt="">
+    
+        </div>
+    </div>
+
+<div class="fixed">
+    <ul>
+        <li class="first-f">1F</li>
+        <li class="second-f">2F</li>
+        <li class="third-f">3F</li>
+        <li class="fourth-f">4F</li>
+        <li class="fifth-f">5F</li>
+        <li class="sixth-f">6F</li>
+        <li class="seven-f">7F</li>
+    </ul>
+</div>
+</body>
+<script src="../jquery/jquery.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/home.js"></script>
+
+</html>

@@ -1,0 +1,118 @@
+/* 搜索栏 */
+body{
+    background: #f5f5f5;
+}
+
+.search{
+    width: 100%;
+}
+.search-center{
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    margin: 0 auto;
+    height: 110px;
+    overflow: hidden;
+}
+.sc-gif{
+    float: left;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+}
+.sc-gif img{
+    height:80px;
+    width: 160px;
+}
+
+.welcome{
+    display: flex;
+    color: #999;
+    align-items: center;
+    line-height: 30px;
+    font-size: 30px;
+    border-left: 2px solid #999;
+    margin-top: 40px;
+}
+.welcome span{
+    margin-left: 20px;
+}
+
+
+/* 登录框 */
+.login-modle{
+    width: 100%;
+    height: 430px;
+    background: url('../img/b5e101e1-1758-4adf-8dcc-37f40a0a3805.jpg');
+    
+    position: relative;
+}
+
+.kuang{
+    width: 500px;
+    height: 300px;
+    padding:40px 20px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    left:  150px;
+    top: 100px;
+
+}
+.kuang span{
+    display:inline-block;
+    width: 80px;
+}
+.kuang input{
+    width: 260px;
+    height: 30px;
+    border: 1px solid #999;
+    margin-bottom: 20px;
+}
+.kuang p{
+    display: inline;
+}
+.kuang button{
+    width:150px;
+    height: 40px; 
+    background:#cc0000;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    font-weight: bold;
+}
+.kuang a{
+    font-size: 14px;
+    color: black;
+}
+
+
+/* 底部 */
+.footer{
+    width: 100%;
+}
+.footer-center{
+    width: 1200px;
+    
+    margin: 0 auto;
+    background: white;
+    height: 400px;
+    padding: 100px 80px 0px;
+}
+.footer-center ul{
+    width: 190px;
+    float: left;
+
+}
+.footer-center li{
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+}
+.footer-center .first{
+    font-size: 18px;
+    color: black;
+}
+
+.footer-center img{
+    margin-top: 60px;
+}

@@ -1,0 +1,512 @@
+body,html{
+    min-width: 1200px;
+}
+body{
+    background: #f5f5f5;
+}
+
+/* 顶部 */
+.header{
+    width: 100%;
+    height: 35px;
+    background: #eee;
+    min-width: 1200px;
+}
+.header-center{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+.head-left{
+    float: left;
+    
+}
+.head-left ul{
+    margin-left: 50px;
+
+}
+.head-left li{
+    float: left;
+    margin: 10px 0;
+    padding: 0 10px;
+    line-height: 14px;
+    text-align: center;
+    
+}
+.head-left li a{
+    color:  #cc0000;
+}
+.head-right{
+    float: right;
+}
+.head-right li{
+    float: left;
+    margin: 10px 0;
+    padding: 0 20px;
+    line-height: 14px;
+    text-align: center;
+    border-right: 1px solid #999;
+}
+.head-right li a {
+    color:#747474;
+}
+.header-center .you{
+    border-left: 1px solid #999;
+}
+
+
+
+/* 搜索栏 */
+.search-center{
+    width: 1200px;
+    margin: 0 auto;
+    height: 110px;
+}
+.sc-gif{
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding: 15px;
+}
+.sc-gif img{
+    height:80px;
+    width: 160px;
+}
+.sc-search{
+    float: left;
+    width: 524px;
+    margin-left: 28px;
+}
+.sc-search-top{
+    border: 1px solid #cc0000;
+    border-radius: 20px;
+    height: 38px;
+    width: 524px;
+    line-height: 36px;
+    margin-top: 25px;
+}
+.sc-search-left{
+    float: left;
+    width: 80px;
+    text-align: center;
+    border-right: 1px solid #999;
+    cursor: pointer;
+    height: 36px;
+    line-height: 36px;
+}
+.sc-search-left span{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #999;
+    
+}
+.sc-search-mid{
+    float: left;
+}
+.sc-search-mid input{
+    background-color: rgba(0, 0, 0, 0);
+    width: 380px;
+    /* height: 38px;
+    line-height: 38px; */
+    
+    border: none;
+    color: #323232;
+    padding: 9px 0 0 20px;
+}
+.sc-search-right{
+    float: right;
+    background: #cc0000;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.sc-search-right span{
+    color: white;
+    font-weight: bold;
+}
+
+.sc-search-bottom{
+    width: 524px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.sc-search-bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+.sc-search-bottom li{
+    float: left;
+}
+.sc-search-bottom a{
+    color: #999;
+}
+
+/* 搜索框右边 */
+.sc-right-img{
+    /* width: 180px; */
+    height: 65px;
+    padding: 25px 0 0 50px;
+    float: left;
+}
+.sc-right-img img{
+    height: 40px;
+    width: 150px;
+}
+
+/* 购物车按钮 */
+.sc-cart{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 25px 0 0 25px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sc-cart img{
+    width: 25px;
+    height: 25px;
+    display: inline;
+    margin-right: 10px;
+}
+
+
+/* 导航栏 */
+.banner{
+    width: 100%;
+    height: 486px;
+}
+.banner-center{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.banner-center-top a{
+    color:black;
+}
+.banner-center-top{
+    width: 1000px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+
+}
+.banner-center-top li{
+    float: left;
+    padding: 0 15px;
+}
+.banner-center-top .all-select{
+    width: 174px;
+    /* padding-left:  32px; */
+    background: #cc0000;
+    text-align: center;
+}
+.banner-center-top .all-select a{
+    color: white;
+    font-size: 13px;
+}
+
+
+.banner-center-bottom{
+    height: 450px;
+    /* width: 174px; */
+    /* margin: 0 auto; */
+    position: absolute;
+    /* overflow: hidden; */
+    z-index:7;
+}
+.banner-list{
+    float: left;
+}
+.banner-center-bottom ul{
+    width: 174px;
+    height: 450px;
+    padding: 4px 0;
+    background:rgba(0, 0, 0, 0.6);
+}
+.banner-center-bottom ul li{
+    width: 174px;
+    height: 34px; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+}
+.banner-center-bottom ul li a{
+    height: 34px;
+    width: 174px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+}
+/* .banner-center-bottom li .bx-img{
+    position: absolute;
+} */
+
+.banner-center-bottom li:hover span{
+    color: #cc0000;
+}
+.banner-center-bottom li:hover{
+    background:white;
+}
+.banner-mask{
+    width: 500px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    left: 174px;
+    top: 0;
+    display: none;
+}
+.banner-mask ul{
+    width: 500px;
+}
+.banner-mask li{
+    float: left;
+    padding: 0 10px;
+}
+.banner-mask li a{
+    color: #999;
+    font-size: 13px;
+}
+.banner-mask li .first{
+    
+}
+.banner-center-bottom .biao{
+    padding-left: 32px; 
+}
+.banner-list img{
+    width: 20px;
+    height: 20px;
+    margin: 0 6px;
+    display: inline;   
+}
+.banner-center-bottom span{
+    color: white;
+}
+.banner-center-bottom .iconfont{
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+
+/* banner图片 */
+.banner-img{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 6;
+}
+.banner-img  img{
+    width: 100%;
+    position: absolute;
+    float: left;
+    display: inline-block;
+    height: 450px;
+    left: 100%;
+}
+
+.banner-img ul{
+    position: absolute;
+    z-index: 21;
+    left: 48%;
+    bottom: 20px;
+}
+.banner-img .full{
+    background: white;
+}
+.banner-img ul li{
+    float: left;
+    width: 15px;
+    height:15px ;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/* 热销推荐 */
+.tuijian{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tuijian span{
+    display: block;
+    color: #999;
+    margin:15px 0;
+    font-size: 18px;
+}
+.tuijian .mokuai-img{
+    display: flex;
+    justify-content: space-around;
+}
+.tuijian img{
+    cursor: pointer;
+}
+
+/* 每日精选 */
+.everyday{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.everyday span{
+    display: block;
+    color: #999;
+    margin:15px 0;
+    font-size: 18px;
+}
+.everyday .mokuai-img{
+    overflow: hidden;
+}
+.everyday img{
+    margin:0 8px 8px 0;
+    float: left;
+    cursor: pointer;
+    display: inline-block;
+}
+.everyday .wu{
+    margin-right: 0;
+}
+
+
+
+/* 1L冰箱 */
+
+.first-floor{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.first-floor .s1{
+    width: 35px;
+    height: 30px;
+    color: white;
+    background: red;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+.first-floor span{
+    display: inline-block;
+    color: #999;
+    margin:15px 0;
+    font-size: 14px;
+}
+.first-floor img{
+    display: inline-block;
+    margin:0 8px 8px 0;
+    float: left;
+    cursor: pointer;
+}
+.first-floor .mokuai{
+    width: 200px;
+    height: 280px;
+    float: left;
+    background: white;
+}
+.first-floor .you{
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.first-floor .mokuai p{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.first-floor .mokuai .p1{
+    color: #333;
+    font-size: 14px;
+}
+.first-floor .mokuai .p2{
+    color: #aaa;
+    font-size: 12px;
+}
+.first-floor .mokuai .p3{
+    color:#cc0000;
+    font-size: 14px;
+}
+
+
+/* 董明珠照片 */
+.boss-new{
+    width: 1200px;
+    height: 418px;
+    margin: 30px auto;
+}
+
+
+/* 固定器 */
+.fixed{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    z-index: 100;
+    display: none;
+}
+.fixed li{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    color: #cc0000;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 底部 */
+.footer{
+    width: 100%;
+}
+.footer-center{
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    height: 400px;
+    padding: 100px 80px 0px;
+}
+.footer-center ul{
+    width: 190px;
+    float: left;
+
+}
+.footer-center li{
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+}
+.footer-center .first{
+    font-size: 18px;
+    color: black;
+}
+
+.footer-center img{
+    margin-top: 60px;
+}
+
+
